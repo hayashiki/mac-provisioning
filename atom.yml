@@ -1,0 +1,35 @@
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  become: no
+  vars:
+    atom_packages_packages:
+      - project-manager
+      - editorconfig
+      - file-icons
+      - merge-conflicts
+      - browser-plus
+      - file-icons
+      - linter
+      - linter-tslint
+      - script
+      - terminal-plus
+      - vim-mode-plus
+      - autocomplete-plus
+      - autocomplete-paths
+      - atom-beautify
+      - color-picker
+      - highlight-selected
+      - autocomplete-python
+      - autocomplete-snippets
+      - react
+      - emmet
+      - git-puls
+      - slack-ui
+      - markdown-writer
+      - markdown-scroll-sync
+      - tool-bar-markdown-writer
+      - markdown-folder
+      - markdown-preview-plus
+  roles:
+    - hnakamur.atom-packages

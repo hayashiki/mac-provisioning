@@ -1,0 +1,6 @@
+/brew_info/
+/cask_info/
+/hnakamur.atom-packages/
+/zsh_orig/
+/node_modules
+/*.retry
